@@ -190,6 +190,7 @@ i.fa-solid.fa-chevron-down {
 }
 .custom_card_profit {
     margin-top: -10px;
+    overflow-x: scroll;
 }
 
 /*form section css start*/
@@ -413,5 +414,8 @@ marquee {
 
 td.text_middle {
     vertical-align: middle;
+}
+.ress{
+    overflow-y: scroll;
 }
 
