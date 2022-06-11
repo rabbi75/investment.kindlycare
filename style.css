@@ -100,7 +100,7 @@ i.fa-solid.fa-star {
 }
 .home__blob {
     width: 260px;
-    height: 360px;
+    height: 481px;
     fill: #61B178;
 }
 .personal_details p {
@@ -409,5 +409,9 @@ marquee {
     .btn-link {
         padding-left: 15px!important;
     }
+}
+
+td.text_middle {
+    vertical-align: middle;
 }
 
