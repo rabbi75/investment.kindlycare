@@ -31,30 +31,58 @@ body{
     font-size: 40px;
     line-height: 3.4;
 }
-@media only screen and (min-width: 296px) and (max-width: 414px) {
+.social_media_icon h1 {
+    padding-top: 44px;
+    text-align: right;
+    padding-right: 55px;
+    color: #56B075;
+    font-weight: bold;
+    /*background: linear-gradient(to left, #5EAF78 0%, #F8B6A4 100%);*/
+}
+@media only screen and (min-width: 296px) and (max-width: 768px) {
     .logo img {
-        width: 70px;
+        width: 75px;
         height: auto;
         padding-top: 30px;
         padding-bottom: 10px;
     }
     .lg_img{
-        width: 30%;
+        /*width: 30%;*/
         text-align: center;
     }
     .company_name h1{
         font-size: 40px;
     }
     .lg_tlt{
-        width: 70%;
+        /*width: 70%;*/
         text-align: start;
+        clear: both;
     }
-    .social_media_icon{
-        display: none;
+    span.one.mobile_one {
+        font-size: 27px;
+    }
+
+}
+@media (max-width: 766px) {
+    .social_media_icon h1 {
+        padding-top: 25px;
+        padding-right: 0px;
+        color: #56B075;
+        font-weight: bold;
+        text-align: center;
+        font-size: 43px;
+        padding-bottom: 12px;
+        padding-right: 0px;
+        /* background: linear-gradient(to left, #5EAF78 0%, #F8B6A4 100%); */
+    }
+}
+@media (max-width: 425px) {
+    .mobile_one {
+        font-size: 30px;
     }
 }
 .company_name h1 {
-    padding-top: 40px;
+    padding-top: 18px;
     font-weight: 600;
 }
 .one{
