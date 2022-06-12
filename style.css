@@ -82,7 +82,7 @@ body{
     }
 }
 .company_name h1 {
-    padding-top: 18px;
+    padding-top: 15px;
     font-weight: 600;
 }
 .one{
@@ -400,7 +400,7 @@ marquee {
 .section20 {
     padding-top: 35px;
 }
-@media (max-width: 425px) {
+@media (max-width: 428px) {
     .portfolio_div{
         width: 50%;
     }
